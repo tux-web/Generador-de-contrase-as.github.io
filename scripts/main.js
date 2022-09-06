@@ -80,7 +80,7 @@ function generarContraseña(e) {
     e.preventDefault();
     if(validarCheckbox()) {
         let contraseña = "";
-        for(i = 0; i < datosEntrada.largo; i++) {
+        for(i = 0; i < datosEntrada.largo -1; i++) {
             const stringCaracteres = caracteres[generarNumeroAleatorio(0, caracteres.length)];
             let caracterActual = stringCaracteres[generarNumeroAleatorio(0, stringCaracteres.length)];
             if(letras.includes(caracterActual)) {
