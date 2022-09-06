@@ -342,13 +342,30 @@ input[type="checkbox"]:checked + .checkbox-personalizado{
 }
 
 @media (max-width: 800px) {
-    h1 {
-        font-size: 20px;
-    }
 }
 
 @media (max-width: 500px) {
+    h1 {
+        font-size: 18px;
+    }
+
     main {
         width: calc(100% - 40px);
+    }
+
+    .creditos {
+        font-size: 12px;
+    }
+
+    #contraseña-resultado {
+        font-size: 22px;
+    }
+
+    #largo-resultado {
+        font-size: 24px;
+    }
+
+    #btn-generar {
+        font-size: 18px;
     }
 }
